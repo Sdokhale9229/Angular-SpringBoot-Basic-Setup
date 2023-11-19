@@ -21,7 +21,7 @@ public class HomeController {
 	
 @GetMapping(path ="/hellos")	
 public String hello() {
-	System.out.println("successfully logged in");
+	System.out.println("successfully loggedd in");
 	return "Hello ..";
 }
 }
